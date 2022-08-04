@@ -194,6 +194,12 @@ body{
     grid-row: span 3;
 }
 
+.contactos{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
 /*---------FOOTER--------*/
 footer div {
     display: flex;
@@ -205,7 +211,7 @@ footer img{
 }
 footer h3{
     text-align: center;
-
+    margin: 50pxp;
 }
 footer img{
     width:100px ;
@@ -215,6 +221,11 @@ footer img{
     display: flex;
     align-content: center;
     justify-content: space-around;
+}
+.mbc{
+    width: 400px;
+    height: 400px;
+    margin: 70px;
 }
 
 
