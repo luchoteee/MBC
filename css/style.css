@@ -223,9 +223,9 @@ footer img{
     justify-content: space-around;
 }
 .mbc{
-    width: 400px;
-    height: 400px;
-    margin: 70px;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
 }
 
 
@@ -255,14 +255,18 @@ footer img{
     }
 }
 
-/* @media screen and(max-width:666px){
-    .boton-fixed{
-        display: none;
-    }
-} */
+
 
 @media screen and(max-width:599px){
     .nosotros img{
         align-items: center;
+    }
+}
+
+@media screen and(max-width:1222px){
+    .mbc{
+        display: flex;
+        align-content: center;
+        justify-content: center;
     }
 }
