@@ -7,23 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>MBC CRACK HOUSE</title>
 </head>
+
 <body>
-        <header>
-            <img src="./img/mbc logo.jfif" alt="logo">
-            <nav class="animate__animated animate__backInUp">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./pages/eventos.html">Eventos</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/acercade.html">Acerca de nosotros</a></li>
-                    <li><a href="./pages/contactos.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <img src="./img/mbc logo.jfif" alt="logo">
+        <nav class="navbar navbar-expand-lg" style="background-color: #000000;">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/acercade.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                        </li>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section class="hero">
             <div>
@@ -122,8 +159,12 @@
             <div class="row d-flex align-items-lg-center">
                 <div class="col-lg-6">
                     <h1>THE FIRST</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui repudiandae assumenda, pariatur commodi quas totam sed laborum magni labore nam nulla ex? Sint, ipsa pariatur voluptates maiores rem corporis culpa!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione saepe itaque harum officia vero? Fuga facere totam eos, facilis sunt eligendi reprehenderit. Obcaecati saepe porro tempora id nihil cupiditate animi.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui repudiandae assumenda, pariatur
+                        commodi quas totam sed laborum magni labore nam nulla ex? Sint, ipsa pariatur voluptates maiores
+                        rem corporis culpa!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione saepe itaque harum officia vero?
+                        Fuga facere totam eos, facilis sunt eligendi reprehenderit. Obcaecati saepe porro tempora id
+                        nihil cupiditate animi.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="mbc" src="./img/mbc-fiesta.jpeg" alt="">
@@ -134,18 +175,19 @@
     <footer>
         <div class="redes">
             <a target="_blank" href="https://www.instagram.com/mbc_producciones/"><img src="./img/instagram.png"
-                alt="instagram" /></a>
-                
-                <a target="_blank" href="https://twitter.com/?lang=es"><img src="./img/gorjeo.png" alt="twitter" /></a>
-                
-            </div>
-            <h3>
-                <p>DERECHOS RESERVADOS</p>
-            </h3>
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    alt="instagram" /></a>
+
+            <a target="_blank" href="https://twitter.com/?lang=es"><img src="./img/gorjeo.png" alt="twitter" /></a>
+
+        </div>
+        <h3>
+            <p>DERECHOS RESERVADOS</p>
+        </h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
